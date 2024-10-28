@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/ttequipking/static/css/main.f855e6bc.css",
+    "main.js": "/ttequipking/static/js/main.a18c4c7b.js",
+    "static/js/453.7b65adea.chunk.js": "/ttequipking/static/js/453.7b65adea.chunk.js",
+    "index.html": "/ttequipking/index.html",
+    "main.f855e6bc.css.map": "/ttequipking/static/css/main.f855e6bc.css.map",
+    "main.a18c4c7b.js.map": "/ttequipking/static/js/main.a18c4c7b.js.map",
+    "453.7b65adea.chunk.js.map": "/ttequipking/static/js/453.7b65adea.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f855e6bc.css",
+    "static/js/main.a18c4c7b.js"
+  ]
+}
