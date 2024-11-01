@@ -23,8 +23,8 @@ export let bladeData = [
             'https://www.bilibili.com/video/BV18U421o7th',
             'https://www.bilibili.com/video/BV1gK4y1s7vN'
         ],
-        power: 10,
-        spin: 10,
+        power: 11,
+        spin: 10.5,
         speed: 8,
         control: 9,
         reclevel: 9
@@ -39,6 +39,32 @@ export let bladeData = [
             'https://www.bilibili.com/video/BV1gK4y1s7vN'
         ],
         power: 9.5,
+        spin: 9,
+        speed: 8,
+        control: 9.5,
+        reclevel: 9
+    },
+    {
+        name: '狂飙王968 王楚钦 数字版',
+        brand: '红双喜 DHS',
+        price: 3000,
+        user: [''],
+        review: [
+        ],
+        power: 10,
+        spin: 9,
+        speed: 8,
+        control: 9.5,
+        reclevel: 9
+    },
+    {
+        name: '狂飙飒968 孙颖莎 数字版',
+        brand: '红双喜 DHS',
+        price: 3000,
+        user: [''],
+        review: [
+        ],
+        power: 10,
         spin: 9,
         speed: 8,
         control: 9.5,
