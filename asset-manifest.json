@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/ttequipking/static/css/main.f855e6bc.css",
-    "main.js": "/ttequipking/static/js/main.12c7ae8b.js",
+    "main.js": "/ttequipking/static/js/main.b3325230.js",
     "static/js/453.7b65adea.chunk.js": "/ttequipking/static/js/453.7b65adea.chunk.js",
     "index.html": "/ttequipking/index.html",
     "main.f855e6bc.css.map": "/ttequipking/static/css/main.f855e6bc.css.map",
-    "main.12c7ae8b.js.map": "/ttequipking/static/js/main.12c7ae8b.js.map",
+    "main.b3325230.js.map": "/ttequipking/static/js/main.b3325230.js.map",
     "453.7b65adea.chunk.js.map": "/ttequipking/static/js/453.7b65adea.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f855e6bc.css",
-    "static/js/main.12c7ae8b.js"
+    "static/js/main.b3325230.js"
   ]
 }
