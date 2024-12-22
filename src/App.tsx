@@ -1,17 +1,17 @@
 import React, {useEffect, useState} from 'react';
 import './App.css';
-import {Layout, Menu, Table, theme} from 'antd';
-import {bladeData} from "./data/bladeData";
-import {bladeSchema} from "./data/bladeSchema";
-import {rubberData} from "./data/rubberData";
-import {rubberSchema} from "./data/rubberSchema";
+import {Layout, Menu, theme} from 'antd';
+import BladeTable from "./components/bladeTable"
+import RubberTable from "./components/rubberTable";
+import PlayerTable from "./components/playerTable";
+import './i18n'
 
 const {Header, Content, Footer} = Layout;
 
 const items = [
-    {key: 'blade', label: '底板'},
-    {key: 'rubber', label: '胶皮'},
-    {key: 'player', label: '选手'}
+    {key: 'blade', label: '底板 Blade'},
+    {key: 'rubber', label: '胶皮 Rubber'},
+    {key: 'player', label: '选手 Player'}
 ];
 
 function App() {
@@ -30,31 +30,11 @@ function App() {
     const renderContent = () => {
         switch (selectedKey) {
             case 'blade':
-                return (
-                    <Table
-                        dataSource={bladeData}
-                        columns={bladeSchema}
-                        pagination={{
-                            defaultPageSize: 20,
-                            showSizeChanger: true,
-                            pageSizeOptions: ['10', '20', '50'],
-                        }}
-                    />
-                );
+                return <BladeTable/>;
             case 'rubber':
-                return (
-                    <Table
-                        dataSource={rubberData}
-                        columns={rubberSchema}
-                        pagination={{
-                            defaultPageSize: 20,
-                            showSizeChanger: true,
-                            pageSizeOptions: ['10', '20', '50'],
-                        }}
-                    />
-                );
+                return <RubberTable/>;
             case 'player':
-                return <div>选手内容 尚在开发中</div>;
+                return <PlayerTable/>;
             default:
                 return null;
         }
@@ -86,7 +66,7 @@ function App() {
                 </div>
             </Content>
             <Footer style={{textAlign: 'center'}}>
-                乒乓器材王国 ©{new Date().getFullYear()} Created by skyskyskyha
+                乒乓器材王国 TT Equipment Kingdom ©{new Date().getFullYear()} Created by skyskyskyha
             </Footer>
         </Layout>
     );

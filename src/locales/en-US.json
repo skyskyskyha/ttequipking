@@ -1,0 +1,19 @@
+{
+  "searchPlaceholder": "Search all columns",
+  "button": {
+    "zh": "Chinese",
+    "en": "English"
+  },
+  "table": {
+    "name": "Name",
+    "brand": "Brand",
+    "price": "Price",
+    "power": "Power",
+    "spin": "Spin",
+    "speed": "Speed",
+    "control": "Control",
+    "reclevel": "Recommendation Level",
+    "review": "Review",
+    "user": "Player"
+  }
+}

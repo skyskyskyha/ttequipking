@@ -1,0 +1,19 @@
+{
+  "searchPlaceholder": "搜索所有列",
+  "button": {
+    "zh": "中文",
+    "en": "英文"
+  },
+  "table": {
+    "name": "名称",
+    "brand": "品牌",
+    "price": "价格",
+    "power": "底劲",
+    "spin": "旋转",
+    "speed": "速度",
+    "control": "控制",
+    "reclevel": "推荐指数",
+    "review": "评测",
+    "user": "使用选手"
+  }
+}
